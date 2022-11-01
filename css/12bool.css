@@ -1,0 +1,147 @@
+/* ----------------
+Reset
+------------- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------
+Common
+------------- */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.box{
+    background-color: #006cfa;
+    color:white;
+    padding:20px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+/* ---------------
+Body
+------------- */
+
+.container {
+    max-width: 1200px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.nested{
+    background-color: #04e464;
+    color: white;
+    height:50px;
+    line-height: 50px;
+    border: 2px solid #006cfa;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    width:calc(100% / 12 *1);
+}
+
+.col-2{
+    width:calc(100% / 12 * 2);
+}
+
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-9{
+    width: calc(100% / 12 * 9);
+}
+
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+
+.col-11{
+    width: calc(100% / 12 * 11);
+}
+
+.col-12{
+    width: calc(100% / 12 * 12);
+}
+
+/* ----------------
+offset
+------------- */
+
+.col-1-offset{
+    margin-left: calc(100% / 12 * 1);
+}
+
+.col-2-offset{
+    margin-left: calc(100% / 12 * 2);
+}
+
+.col-3-offset{
+    margin-left: calc(100% / 12 * 3);
+}
+
+.col-4-offset{
+    margin-left: calc(100% / 12 * 4);
+}
+
+.col-5-offset{
+    margin-left: calc(100% / 12 * 5);
+}
+
+.col-6-offset{
+    margin-left: calc(100% / 12 * 6);
+}
+
+.col-7-offset{
+    margin-left: calc(100% / 12 * 7);
+}
+
+.col-8-offset{
+    margin-left: calc(100% / 12 * 8);
+}
+
+.col-9-offset{
+    margin-left: calc(100% / 12 * 9);
+}
+
+.col-10-offset{
+    margin-left: calc(100% / 12 * 10);
+}
+
+.col-11-offset{
+    margin-left: calc(100% / 12 * 11);
+}
